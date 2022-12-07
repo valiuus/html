@@ -1,0 +1,90 @@
+table, th, td {
+  border-bottom:1px solid black;
+   border-collapse: collapse;
+
+}
+th#pav{background-color: black; color: white; text-align: left;}
+tr#data{background-color: orange}
+table{background-color: #EEE8AA}
+.left {
+  background-color: white;
+  padding: 20px;
+  float: left;
+  width: 23%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: white;
+  padding: 20px;
+  float: left;
+  width: 33%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: white ;
+  padding: 20px;
+  float: left;
+  width: 23%; /* The width is 20%, by default */
+}
+.pap {
+  background-color: #FFF8DC;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px){
+  .left, .main, .right {
+    width: 100%;
+  }
+  .priority-6{
+    display: none;}
+  .priority-5{
+		display:none;}
+	.priority-4{
+		display:none;}
+	.priority-3{
+		display:none;}
+  .priority-2{
+    display: none;}
+  .priority-7{
+    display: none;}
+  .priority-8{
+    display: none;}
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.header {
+  padding: 20px;
+  text-align: left;
+  background: #1abc9c;
+  color: black;
+  font-size: 14px;
+}
+.footer{
+  background: #1abc9c;
+}
+#p{color: green}
+#t{color: red}
