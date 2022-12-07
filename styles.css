@@ -86,5 +86,19 @@ table{background-color: #EEE8AA}
 .footer{
   background: #1abc9c;
 }
+@media print {
+  th#pav{background-color: white; color: black; text-align: left;}
+  tr#data{background-color: white }
+  table{background-color: white}
+
+  body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    text-align: left;
+  }
+}
+
 #p{color: green}
 #t{color: red}
